@@ -1,0 +1,8 @@
+# Обновление brew
+brew update
+
+# Команда для установки
+brew install postgresql
+
+# Команда для запуска
+pg_ctl -D /usr/local/var/postgres start
