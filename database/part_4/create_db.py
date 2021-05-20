@@ -404,3 +404,5 @@ conn.commit()
 
 cursor.close()
 conn.close()
+
+print('Успешно!')
