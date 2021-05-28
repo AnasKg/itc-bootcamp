@@ -1,12 +1,12 @@
 import requests
 
 new_student = {
-	"name": "Alex",
-	"age": 18,
-	"group": "Python-3",
-	"phone": "+996777799993",
-	"email": "tetstts@gmail.com",
-	"created_by": "Anas"
+	"name": "Aibek",
+	"age": 23,
+	"group": "Python-2",
+	"phone": "+996777744444",
+	"email": "aibek@gmail.com",
+	"created_by": "Sezim"
 }
 
 response = requests.post(
