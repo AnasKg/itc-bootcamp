@@ -1,1 +1,7 @@
-{"name": "BOB", "age": 32, "phone": "+996777444333", "surname": "Jackson", "language": "Python"}
+{
+    "name": "BOB",
+    "age": 32,
+    "phone": "+996777444333",
+    "surname": "Jackson",
+    "language": "Python"
+}

@@ -1,0 +1,12 @@
+p {
+    color: red;
+}
+
+#my_unique_p {
+    font-size: 40px;
+}
+
+.my_class {
+    color: yellow;
+    font-weight: bold;
+}
