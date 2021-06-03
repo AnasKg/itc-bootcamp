@@ -1,6 +1,7 @@
 * Документация BeautifulSoup https://www.crummy.com/software/BeautifulSoup/bs4/doc/
-* Полезные ресурсы https://habr.com/ru/post/544828/
-    -* https://python-scripts.com/beautifulsoup-html-parsing 
+* Полезные ресурсы 
+    * https://habr.com/ru/post/544828/
+    * https://python-scripts.com/beautifulsoup-html-parsing 
 
 1. Напишите программу, которая берет полный HTML-код со страницы 
     по URL-адресу http://olympus.realpython.org/profiles. 
@@ -10,4 +11,10 @@
     'http://olympus.realpython.org/profiles/aphrodite
     http://olympus.realpython.org/profiles/poseidon
     http://olympus.realpython.org/profiles/dionysus'
+
+2. Изучить сайт https://quotes.toscrape.com, далее спарсить и вывести цитаты, автора и теги(tags)
+
+3. Изучить сайт https://scrapingclub.com/exercise/list_basic/?page=1 
+    вывести название одежды и стоимость
+
 
