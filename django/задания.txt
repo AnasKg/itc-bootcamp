@@ -1,4 +1,4 @@
-1. Добавить 5 филилалов(Branc)
+1. Добавить 5 филилалов(Branch)
 2. Добавить по 2 группы для каждого филилала
 3. Добавить всех студентов вашей группы
 4. Получить студентов чей год рождения меньше 2003
@@ -8,3 +8,12 @@
 8. Удалите одного любого студента (Гуглите)
 9. Получить студентов и отсортировать по имени
 10. Получить студентов и отсортировать по дате рождения
+
+РЕШЕНИЯ
+4. Student.objects.filter(date_of_birth__year__lt=2003)
+5. Student.objects.filter(name__startswith='A')
+6. Student.objects.filter(gender=Student.FEMALE)
+7. Student.objects.filter(date_of_birth__year__gte=1999).update(address='Bikini Botom')
+8. Student.objects.get(id=4).delete()
+9. Student.objects.all().order_by('name')
+10. Student.objects.all().order_by('date_of_birth')
